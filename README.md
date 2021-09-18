@@ -2,7 +2,7 @@
 
 In this week project we are helping PlanMyTrip app to design a travel itinerary that includes four cities in the same country that can be travel by route. The four cities are chosen from a list of potential destinations that has been created based on the weather preferences of tester users. For this project, we are working with **Python** and **Pandas** in `jupyter notebook` and using *API* (Application Programming Interface) calls to two different websites: **OpenWeatherMap** and **Google Maps Platform**.
 
-## Project Process:
+## Project Overview:
 
 In order to create the travel itinerary, we divide the process in three steps where relevant data is firstly gathered around the world.  Secondly and based on users' preferences, the information is filtered out such that only cities that meet certain temperatures conditions are considered. Lastly, and based on the second step, a route between four different cities is created.
 
