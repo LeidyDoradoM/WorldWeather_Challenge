@@ -1,6 +1,6 @@
 # Py Travel App
 
-In this week project we are helping PlanMyTrip app to design a travel itinerary that includes four cities in the same country that can be travel by route. The four cities are chosen from a list of potential destinations that has been created based on the weather preferences of tester users. For this project, we are working with **Python** and **Pandas** in `jupyter notebook` and using *API* (Application Programming Interface) calls to two different websites: **OpenWeatherMap** and **Google Maps Platform**.
+In this week project we are helping PlanMyTrip app to design a travel itinerary that includes four cities in the same country that can be travel by road. The four cities are chosen from a list of potential destinations that has been created based on the weather preferences of tester users. For this project, we are working with **Python** and **Pandas** in `jupyter notebook` and using *API* (Application Programming Interface) calls to two different websites: **OpenWeatherMap** and **Google Maps Platform**.
 
 ## Project Overview:
 
