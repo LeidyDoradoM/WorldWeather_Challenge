@@ -11,15 +11,22 @@ In order to create the travel itinerary, we divide the process in three steps wh
 The first part of the project is related with the collection of weather conditions around the world. This is performed by generating a set of 2,000 random latitudes and longitudes, retrieve their nearest cities, perform an *API*  call to the **OpenWeatherMap** website. Extract information about temperatures, weather description for each one of the cities and then create a dataframe with all the updated weather data.
 
 ![df](https://raw.githubusercontent.com/LeidyDoradoM/WorldWeather_Challenge/main/Weather_Database/df_citydata.png)
-Table 1. World Weather DataFrame 
+Table 1. World Weather DataFrame.
 
 ### 2. Potential Cities to Visit
  
  From the dataframe generated in the previous step and using an input statement to retrieve the customer weather preferences, we identify potential travel destinations and their nearby hotels. This relevant information is presented as a world map with markers and pop-up boxes showing city, hotel name, country, and current weather.
 
-![df](https://raw.githubusercontent.com/LeidyDoradoM/WorldWeather_Challenge/main/Vacation_Search/WeatherPy_vacation_map.png)
-Table 1. World Map with Pop-up Markers Layer
+![map](https://raw.githubusercontent.com/LeidyDoradoM/WorldWeather_Challenge/main/Vacation_Search/WeatherPy_vacation_map.png)
+Figure 1. World Map with Pop-up Markers Layer.
 
 ### 3. Final Travel Route
 
-From the list of potential cities drawn in the second step, four cities are chosen and create a route between four cities using the **Google Directions API**. The final result is a route map with a marker layer and pop-up marker for each city on the itinerary.
+From the list of potential cities drawn in the second step, four cities are chosen and create a route between four cities using the **Google Directions API**. 
+![route](https://raw.githubusercontent.com/LeidyDoradoM/WorldWeather_Challenge/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+Figure 2. Travel Itinerary for 4 cities and the route between each one of them.
+
+The final result is a route map with a marker layer and pop-up marker for each city on the itinerary.
+
+![routeM](https://raw.githubusercontent.com/LeidyDoradoM/WorldWeather_Challenge/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+Figure 3. Travel Itinerary with information about each one of the 4 cities.
